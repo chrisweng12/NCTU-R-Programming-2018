@@ -98,10 +98,10 @@ formant.plot2<-ggplot(data = formant.new, aes(x = timepoint, y = frequency,colou
 formant.plot2
 
 #prediction
-predict=read.csv(choose.files())
-View(predict)
-class(predict)
-prediction+geom_bar(stat="identity",aes(fill=vowel),position="dodge")
+#predict=read.csv(choose.files())
+#View(predict)
+#class(predict)
+#prediction+geom_bar(stat="identity",aes(fill=vowel),position="dodge")
   
 
 
